@@ -8,7 +8,7 @@ if(!$conn) {
 die('Problem in database connection: ' . mysql_error());
 }
 
-
+//Testing Git
 // Data insertion into database
 $query = "SELECT * FROM sample WHERE customer_ID = '$customer_ID' ";
 $criteria = mysqli_query($conn, $query);
